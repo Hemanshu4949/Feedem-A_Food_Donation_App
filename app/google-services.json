@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "579617735725",
+    "project_id": "login-4b339",
+    "storage_bucket": "login-4b339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579617735725:android:4d637452b32b2f49d564a4",
+        "android_client_info": {
+          "package_name": "com.example.feedem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579617735725-ob471aomg8pr246j8rtn7fh0bo0jqvqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9-tUkF4gLKyIxg7GXes5hQL8OOqu5new"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579617735725-ob471aomg8pr246j8rtn7fh0bo0jqvqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579617735725:android:0e751d728ba29c3ad564a4",
+        "android_client_info": {
+          "package_name": "com.realgear.signuplogicfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579617735725-ob471aomg8pr246j8rtn7fh0bo0jqvqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9-tUkF4gLKyIxg7GXes5hQL8OOqu5new"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579617735725-ob471aomg8pr246j8rtn7fh0bo0jqvqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

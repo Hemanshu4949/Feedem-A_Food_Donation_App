@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.feedem.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_donate"
+        android:name="com.example.feedem.ui.donate.DonateFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_donate" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.feedem.ui.profile.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/event1"
+        android:name="com.example.feedem.HomeFragement.Event"
+        android:label="event"
+        tools:layout="@layout/fragment_event"
+        />
+
+    <fragment
+        android:id="@+id/fooddonationcategories"
+        android:name="com.example.feedem.ui.donate.Fooddetail"
+        android:label="fooddetail"
+        tools:layout="@layout/fragment_food_detail"
+        />
+
+    <fragment
+        android:id="@+id/Moredetails"
+        android:name="com.example.feedem.ui.donate.More_Food_Details"
+        android:label="MoreDetails"
+        tools:layout="@layout/fragment_more__food__details"
+        />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.example.feedem.ui.donate.MapsFragment"
+        android:label="map"
+        tools:layout="@layout/fragment_maps"
+        />
+
+    <fragment
+        android:id="@+id/edit_profile"
+        android:name="com.example.feedem.ui.profile.Edit_Profile"
+        android:label="edit_profile"
+        tools:layout="@layout/fragment_maps"
+        />
+    <fragment
+        android:id="@+id/DonationHistory"
+        android:name="com.example.feedem.ui.profile.Donation_History"
+        android:label="map"
+        tools:layout="@layout/fragment_donation__history"
+        />
+
+</navigation>
